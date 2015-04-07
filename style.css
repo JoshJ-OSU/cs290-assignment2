@@ -1,6 +1,15 @@
 /* Requirement 1: Table */
-    table, th {text-align: center; font-weight: bold}
-    table, td:nth-child(1) {font-style: italic}
+    table, th, td {border-style: groove; border-width: thin}
+    tr:nth-child(2n+1){background-color:lightblue}
+    tr:nth-child(even){background-color:lightgreen}
+    tr:nth-child(1) {background-color:transparent}
+    th {text-align: center; font-weight: bold}
+    th:nth-child(1) {font-style: italic; font-weight: normal}
+    td:nth-child(2) {color: red}
+    td:nth-child(4) {color: blue}
+    table {font-style: normal; font-weight:normal}
+    tr:nth-last-child(1) {background-color:transparent; color:black;}
+
 
 /* Requirement 2: DL list */
 /* Requirement 3: Forms */
