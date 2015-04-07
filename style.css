@@ -1,5 +1,6 @@
 /* Requirement 1: Table */
     table, th {text-align: center; font-weight: bold}
+    table, td:nth-child(1) {font-style: italic}
 
 /* Requirement 2: DL list */
 /* Requirement 3: Forms */
