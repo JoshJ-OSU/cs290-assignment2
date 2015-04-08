@@ -1,4 +1,14 @@
 /* Requirement 1: Table */
+    table, th, td {border-style: solid; border-width: thin}
+    tr:nth-child(2n+1){background-color:lightblue}
+    tr:nth-child(even){background-color:lightgreen}
+    tr:nth-child(1){background-color: transparent}
+    tr:nth-last-child(1) > td {background-color:white; color:black}
+    th {text-align: center; font-weight: bold}
+    th:nth-child(1) {font-style: italic; font-weight: normal}
+    td:nth-child(2) {color: red}
+    td:nth-child(4) {color: blue}
+
 /* Requirement 2: DL list */
 dt:hover + dd {background-color:purple; color:white}
 
