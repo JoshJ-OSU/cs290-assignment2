@@ -41,28 +41,32 @@
 <!-- Requirement 3: forms-->
 <section>
     <!-- Form submission via "post"-->
+    <h2>Form method: 'post'</h2>
     <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
-        <input type="text" name="text_input">
-        <input type="number" name="numerical_input">
-        <input type="password" name="password_input">
-        <select name="candy">
-            <option>Snickers</option>
-            <option>Skittles</option>
-            <option>Mentos</option>
-        </select>
+        Text: <input type="text" name="text_input"><br>
+        Number: <input type="number" name="numerical_input"><br>
+        Password: <input type="password" name="password_input"><br>
+        <input type="radio" name="candy" value="Snickers">Snickers
+        <br>
+        <input type="radio" name="candy" value="Skittles">Skittles
+        <br>
+        <input type="radio" name="candy" value="Mentos">Mentos
+        <br>
         <input type="submit">
     </form>
 
     <!-- Form submission via "get"-->
+    <h2>Form method: 'get'</h2>
     <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
-        <input type="text" name="text_input">
-        <input type="number" name="numerical_input">
-        <input type="password" name="password_input">
-        <select name="candy">
-            <option>Snickers</option>
-            <option>Skittles</option>
-            <option>Mentos</option>
-        </select>
+        Text: <input type="text" name="text_input"><br>
+        Number: <input type="number" name="numerical_input"><br>
+        Password: <input type="password" name="password_input"><br>
+        <input type="radio" name="candy" value="Snickers">Snickers
+        <br>
+        <input type="radio" name="candy" value="Skittles">Skittles
+        <br>
+        <input type="radio" name="candy" value="Mentos">Mentos
+        <br>
         <input type="submit">
     </form>
 </section>
@@ -71,14 +75,14 @@
 <section>
     <div class='outer-content'>
         <div class='inner-content'>
-            <p>Hello</p>
+            <p>Hello World</p>
         </div>
     </div>
 </section>
     
 <!-- Requirement 5: 2 paragraphs with image-->
 <section>
-    <img src="cat.jpg">
+    <img src="cat.jpg" alt="100x125 image">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat ipsum quis lectus consequat ullamcorper. Integer ac augue justo. Duis convallis erat quis ornare elementum. Nullam vehicula, ligula et tempor pulvinar, eros nunc tempus elit, nec malesuada est sem eu nunc. </p>
     <p>Suspendisse enim arcu, semper eget magna vel, sodales interdum metus. Ut fermentum elit pharetra luctus varius. Aliquam scelerisque euismod nisi eget maximus. Donec nec ligula in turpis maximus dapibus. Suspendisse blandit sit amet neque eget congue. Nunc commodo ligula ut tristique accumsan. Donec pellentesque fermentum hendrerit. Etiam blandit risus vitae ligula faucibus, non ultricies nibh maximus.</p>
 </section>
