@@ -1,5 +1,7 @@
 /* Requirement 1: Table */
 /* Requirement 2: DL list */
+dt:hover + dd {background-color:purple; color:white}
+
 /* Requirement 3: Forms */
 /* Requirement 4: Div */
 /* Requirement 5: Paragraphs */
