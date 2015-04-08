@@ -1,5 +1,5 @@
 /* Requirement 1: Table */
-    table, th, td {border-style: solid; border-width: thin}
+    table, th, td {border-style: solid; border-width: thin; border-color:gray}
     thead {background-color: transparent; text-align: center; font-weight: bold}
     tbody > tr:nth-child(odd) {background-color:lightgreen}
     tbody > tr:nth-child(even) {background-color:lightblue}
