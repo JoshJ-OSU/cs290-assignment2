@@ -2,5 +2,9 @@
 /* Requirement 2: DL list */
 /* Requirement 3: Forms */
 /* Requirement 4: Div */
+div {}
+div.inner-content {width: 75%; background-color:blue; color:white; margin:auto}
+div.outer-content {width: 75%;background-color:pink; margin-top:20px}
+
 /* Requirement 5: Paragraphs */
 img {float:left; width:100; height: 125}
